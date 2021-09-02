@@ -1,21 +1,21 @@
-var output=[];
+var array=[];
 var count=1;
 function fizzBuzz()
 {
 if(count % 3 === 0 && count % 5===0){
-    output.push("FizzBuzz");
+    array.push("FizzBuzz");
 }
 else if(count % 3 === 0 ){
-    output.push("Fizz");
+    array.push("Fizz");
 }
 else if(count % 5 === 0 ){
-    output.push("Buzz");
+    array.push("Buzz");
 }
 else{
-    output.push(count);
+    array.push(count);
 }
 count+=1;
 
-console.log(output);
+console.log(array);
 
 }
